@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.google.api.Page"/>
+    <fullyQualifiedTypeName name="io.opencensus.metrics.export.Distribution.Bucket"/>
+    <fullyQualifiedTypeName name="com.google.auth.oauth2.GoogleCredentials"/>
+    <fullyQualifiedTypeName name="com.beust.jcommander.internal.Lists"/>
+    <fullyQualifiedTypeName name="io.grpc.Context.Storage"/>
+    <fullyQualifiedTypeName name="com.google.cloud.vision.v1p3beta1.Page"/>
+    <fullyQualifiedTypeName name="com.google.cloud.storage.Bucket"/>
+    <fullyQualifiedTypeName name="com.google.api.gax.paging.Pages"/>
+    <fullyQualifiedTypeName name="com.google.api.gax.paging.Page"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
+    <fullyQualifiedTypeName name="java.io.PrintStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="com.google.protobuf.ByteString"/>
+    <fullyQualifiedTypeName name="java.awt.Image"/>
+    <fullyQualifiedTypeName name="com.google.cloud.vision.v1.Image"/>
+    <fullyQualifiedTypeName name="com.google.cloud.vision.v1p1beta1.Feature"/>
+    <fullyQualifiedTypeName name="com.google.cloud.vision.v1.AnnotateImageRequest"/>
+    <fullyQualifiedTypeName name="com.google.cloud.vision.v1p1beta1.AnnotateImageRequest"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="com.google.cloud.vision.v1.AnnotateImageRequestOrBuilder"/>
+    <fullyQualifiedTypeName name="com.google.cloud.vision.v1.AsyncBatchAnnotateImagesRequestOrBuilder"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.Alert"/>
+</qualifiedTypeNameHistroy>

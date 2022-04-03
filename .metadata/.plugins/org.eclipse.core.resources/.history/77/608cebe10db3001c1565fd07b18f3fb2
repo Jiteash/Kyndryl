@@ -1,0 +1,42 @@
+package com.onlineflight.testCases;
+
+import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+import com.onlineflight.pageObjects.MainDashboard;
+
+public class TC_FlightBooking extends BaseClass{
+	
+	
+	
+	@Test (priority = 0)
+	public void verifyTitle() {
+		
+		driver.get(baseURL);
+		MainDashboard page = new MainDashboard(driver);
+		driver.manage().window().maximize();
+		if(driver.getTitle().equals("Airline Tickets and Airline Reservations from American Airlines | aa.com"))
+		{
+			Assert.assertTrue(true);
+		}
+		else
+		{
+			Assert.assertTrue(false);
+		}
+		
+	}
+	
+	@Test (priority = 1)
+	public void Searchflight() {
+		
+		MainDashboard page = new MainDashboard(driver);
+		page.setDeparture(Departurecity);
+		page.setArrival(Arrivalcity);
+		page.setJourneyStartDate(StartDate);
+		page.setJourneyEndDate(ReturnDate);
+		page.clicksearch();
+		driver.findElement(By.xpath("//*[@id=\"table-bound0-cell00-available-content\"]"));
+	}
+
+}

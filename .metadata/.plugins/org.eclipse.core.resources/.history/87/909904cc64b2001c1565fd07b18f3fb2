@@ -1,0 +1,5 @@
+package com.onlineflight.pageObjects;
+
+public class BaseClass {
+
+}

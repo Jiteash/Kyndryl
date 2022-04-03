@@ -1,0 +1,21 @@
+package com.onlineflight.testCases;
+
+import org.testng.annotations.Test;
+
+import com.onlineflight.pageObjects.MainDashboard;
+
+public class TC_FlightBooking extends BaseClass{
+	
+	
+	
+	@Test
+	public void flightdetails() {
+		
+		driver.get(baseURL);
+		MainDashboard page = new MainDashboard(driver);
+		page.setDeparture(Departurecity);
+		page.setArrival(Arrivalcity);
+		page.clicksearch();
+	}
+
+}

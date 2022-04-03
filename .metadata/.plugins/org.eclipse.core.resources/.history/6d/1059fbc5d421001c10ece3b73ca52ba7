@@ -1,0 +1,18 @@
+package lnv;
+import java.util.*;
+public class pycs {
+
+
+	public static void main(String args[]) {
+		
+		String s = "abc123@";
+		
+		for (int i= s.length(); i>0;i--) {
+			
+			char out = s.charAt(i);
+			System.out.println(out);
+		}
+		
+
+	}
+}

@@ -1,0 +1,35 @@
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+public class Tempo {
+
+	@Test
+	public static void main(String[] args) throws InterruptedException {
+
+
+
+		System.setProperty("webdriver.chrome.driver","J:\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.navigate().to("https://www.seleniumeasy.com/test/javascript-alert-box-demo.html");
+		driver.manage().window().maximize();
+
+
+		driver.findElement(By.xpath("//*[@class=\"btn btn-default btn-lg\" and @onclick=\"myPromptFunction()\"]")).click();
+		Thread.sleep(3000);
+		Alert simple = driver.switchTo().alert();
+		simple.sendKeys("Jiteash");
+	}
+
+
+}

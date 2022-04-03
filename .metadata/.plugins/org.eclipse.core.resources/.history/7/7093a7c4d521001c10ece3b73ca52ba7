@@ -1,0 +1,40 @@
+package lnv;
+import java.util.*;
+public class pycs {
+
+
+	public static void main(String args[]) {
+		
+		String s = "abc123@";
+		String al= "abc";
+		String no="123";
+		String spec= "@";
+		int count;
+		for (int i= s.length()-1; i>0;i--) {
+			
+			char out = s.charAt(i);
+			char alout=al.charAt(i);
+			char noout=no.charAt(i);
+			//System.out.println(out);
+			
+			if(out==alout) {
+				
+				System.out.println(out);
+			}
+			else if(out==noout){
+				System.out.println(out);
+			}
+			else {
+				System.out.println(out);
+			}
+			
+		}
+		
+
+	}
+
+	private static void elseif() {
+		// TODO Auto-generated method stub
+		
+	}
+}

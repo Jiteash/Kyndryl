@@ -1,0 +1,38 @@
+package com.onlineflight.testCases;
+
+import org.junit.Assert;
+import org.testng.annotations.Test;
+
+import com.onlineflight.pageObjects.MainDashboard;
+
+public class TC_FlightBooking extends BaseClass{
+	
+	MainDashboard page = new MainDashboard(driver);
+	
+	@Test (priority = 0)
+	public void verifyTitle() {
+		
+		driver.get(baseURL);
+		driver.manage().window().maximize();
+		if(driver.getTitle().equals("Emirates | Fly Better"))
+		{
+			Assert.assertTrue(true);
+		}
+		else
+		{
+			Assert.assertTrue(false);
+		}
+		
+	}
+	
+	@Test (priority = 1)
+	public void Searchflight() {
+		
+		driver.get(baseURL);		
+		driver.manage().window().maximize();
+		page.setDeparture(Departurecity);
+		page.setArrival(Arrivalcity);
+		//page.clicksearch();
+	}
+
+}

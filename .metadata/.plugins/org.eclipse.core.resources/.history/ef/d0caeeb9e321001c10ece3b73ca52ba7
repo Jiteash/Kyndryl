@@ -1,0 +1,15 @@
+package lnv;
+import java.lang.reflect.Array;
+import java.util.*;
+public class pycs {
+
+
+	public static void main(String args[]) {
+		
+		List<Integer> ar = new ArrayList<>();
+		ar.add(0, 2);
+		ar.add(1, 1);
+		ar.add(2,3);
+		System.out.println(ar);
+	}
+}
